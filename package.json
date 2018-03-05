@@ -1,0 +1,23 @@
+{
+  "name": "mongochat",
+  "version": "1.0.0",
+  "description": "Chat on MongoDB and Socket.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-rozhkov/MongoSocketChat.git"
+  },
+  "author": "Ivan Rozhkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-rozhkov/MongoSocketChat/issues"
+  },
+  "homepage": "https://github.com/i-rozhkov/MongoSocketChat#readme",
+  "dependencies": {
+    "mongodb": "^3.0.3",
+    "socket.io": "^2.0.4"
+  }
+}
